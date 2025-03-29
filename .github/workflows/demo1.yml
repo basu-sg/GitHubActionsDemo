@@ -1,8 +1,6 @@
 name: hello-world
 on:
   workflow_dispatch:
-    inputs:
-      Ok:
 jobs:
   my-job:
     runs-on: ubuntu-latest
